@@ -1,16 +1,16 @@
 {
 	"nodes":[
 		{"id":"b536639baad47411","type":"text","text":"# 프로젝트의 목적\n소컨 <- 팀플이 될지 혼자 할지는 모름\nUnity를 이용한 2D 개발 숙련\n높은 수준의 OOP(객체지향프로그래밍) 구현\n\n스토리를 중시하는 게임성\n모바일 빌드를 통한 게임 출시를 목적으로\n\n좋은 게임이란 무엇일까?","x":-560,"y":-373,"width":444,"height":313},
-		{"id":"73e2bc790cff7d48","x":-580,"y":32,"width":394,"height":309,"type":"text","text":"# 게임 스타일\n모바일에서 플레이어를 움직이고 맵을 돌아다니면서 상호작용하는 것은 불편\n가로 화면 플레이에서 이어지는 불편함 & 캐주얼한 플레이랑은 거리가 멀어짐\n\n세로 화면으로 진행\n스토리는 텍스트로? <- 웹툰 형식으로 하고싶은데 이거 가능한가? (에셋 문제로 빡셀듯)"},
+		{"id":"73e2bc790cff7d48","type":"text","text":"# 게임 스타일\n모바일에서 플레이어를 움직이고 맵을 돌아다니면서 상호작용하는 것은 불편\n가로 화면 플레이에서 이어지는 불편함 & 캐주얼한 플레이랑은 거리가 멀어짐\n\n세로 화면으로 진행\n스토리는 텍스트로? <- 웹툰 형식으로 하고싶은데 이거 가능한가? (에셋 문제로 빡셀듯)","x":-580,"y":32,"width":394,"height":309},
 		{"id":"f605d39bac54fba0","type":"text","text":"# 모바일 빌드\n모바일에서 편리하게 조작할 수 있는 조작법\n요즘 트렌드 - 게임은 가볍게 즐길 수 있어야 함\n모바일로 간단하게 진행하면서 스토리에 순간적으로 몰입할 수 있게\n짧게짧게 끊어도 스토리 몰입이 많이 끊기지 않게","x":15,"y":-372,"width":440,"height":333},
 		{"id":"806157e344961182","type":"text","text":"# 전투 방식\n구체적이고 복잡한 커맨드보다는 간단한 터치로 할 수 있는 조작\n플레이어의 기술을 요구하는 것보다 난수, 타이밍을 이용\n랜덤 요소, 리듬 게임 요소를 혼합\n적의 공격을 타이밍 맞게 회피, 방어, 패링 (무기에 따라 달라지는 전투 방식)\n공방을 주고 받는 전투(움직이는 조작 없이 스와이프, 터치로만 플레이어 이동, 방어, 공격 제어)","x":-80,"y":46,"width":630,"height":280},
-		{"id":"866241dbdf60178f","x":633,"y":-372,"width":395,"height":331,"type":"text","text":"# 학습 요소\n모바일 입력 받기 및 빌드(스와이프, 터치)\n다양한 디자인 패턴들(Decorator, Factory)\nUnity6에서 생긴 기능들을 사용\nrpg 요소들을 구현하는 방법(많은 데이터 처리)\n타이밍 관련된 기능 구현(ex.코루틴)"},
-		{"id":"8b7a60d3e7a56ae5","x":665,"y":157,"width":250,"height":60,"type":"text","text":"GameManager"},
-		{"id":"a805c35a232adcc2","x":665,"y":267,"width":250,"height":60,"type":"text","text":"PlayerManager"},
-		{"id":"be581ae873a65099","x":665,"y":46,"width":250,"height":60,"type":"text","text":"DialogueManager"}
+		{"id":"866241dbdf60178f","type":"text","text":"# 학습 요소\n모바일 입력 받기 및 빌드(스와이프, 터치)\n다양한 디자인 패턴들(Decorator, Factory)\nUnity6에서 생긴 기능들을 사용\nrpg 요소들을 구현하는 방법(많은 데이터 처리)\n타이밍 관련된 기능 구현(ex.코루틴)","x":633,"y":-372,"width":395,"height":331},
+		{"id":"8b7a60d3e7a56ae5","type":"text","text":"GameManager","x":665,"y":157,"width":250,"height":60},
+		{"id":"a805c35a232adcc2","type":"text","text":"PlayerManager","x":665,"y":267,"width":250,"height":60},
+		{"id":"be581ae873a65099","type":"text","text":"DialogueManager","x":665,"y":46,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"e78eca0f1cd79352","fromNode":"f605d39bac54fba0","fromSide":"bottom","toNode":"806157e344961182","toSide":"top","toEnd":"none"},
-		{"id":"18c03a32154881e9","fromNode":"806157e344961182","fromSide":"left","toNode":"73e2bc790cff7d48","toSide":"right","toEnd":"none"}
+		{"id":"b6f9a632c732a6c8","fromNode":"73e2bc790cff7d48","fromSide":"right","toNode":"806157e344961182","toSide":"left"}
 	]
 }
