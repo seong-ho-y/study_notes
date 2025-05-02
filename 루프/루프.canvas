@@ -5,7 +5,7 @@
 		{"id":"773f6b3d18416efe","type":"text","text":"### 협업\nGit을 통해 Script 공유\nAsset은 용량이 크기에 구글 드라이브를 이용(압축해서 올리기)\n각자 Asset을 다운받은 후에 각자의 에디터에서 돌려본 후에 Script 작성, gitignore로 script만 push","x":197,"y":-192,"width":443,"height":212},
 		{"id":"b9a47b5ea1b954a8","type":"text","text":"### 멀티플레이\nreplication을 해야함\n","x":740,"y":-192,"width":443,"height":267},
 		{"id":"f8e7e71370e267af","type":"text","text":"### 전투\n","x":300,"y":109,"width":466,"height":380},
-		{"id":"733b9772a4957d23","x":-374,"y":580,"width":494,"height":480,"type":"text","text":"### 적\n핵앤슬 특성상 한번에 적이 많이 나와야한다\n### 적 종류\n1. 돌격형\n\t1. 기본 돌격\n\t2. 자폭\n\t3. 점프 돌진\n2. 원거리\n\t1. 기본 슈터\n\t2. 타워형\n\t3. 범위 슈터\n\t4. \n3. \n"}
+		{"id":"733b9772a4957d23","type":"text","text":"### 적\n핵앤슬 특성상 한번에 적이 많이 나와야한다\nAttack(target, damage)\n### 적 종류\n1. 돌격형\n\t1. 기본 돌격\n\t2. 자폭\n\t3. 점프 돌진\n2. 원거리\n\t1. 기본 슈터\n\t2. 타워형\n\t3. 범위 슈터\n\t4. \n3. \n","x":-374,"y":580,"width":714,"height":540}
 	],
 	"edges":[
 		{"id":"0e817b7ebd074ddd","fromNode":"0a506d90d0388d1d","fromSide":"right","toNode":"f8e7e71370e267af","toSide":"left"},
