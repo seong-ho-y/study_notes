@@ -22,4 +22,20 @@ if (Enemy)
 }
 ```
 
+Enum을 사용하면 편리하게 관리할 수 있다
+근데 현재 nullptr참조 오류가 계속나서 답이 없음 5.15 기준
+일단 Enum 안쓰고 개발해보자
+
+TMap<TSubclassOf<AEnemyBase>, TArray<AEnemyBase*>>
+편의상 TMap을 쓴다
+적의 클래스 구조가 EnemyBase를 상속받아서 그 하위 클래스별로 적이 나누어져있기 때문
+
+여기서 클래스를 인자로 받는게 아니라 인스턴스(객체)를 사용
+이거때문에 인스턴스를 미리 생성을 해놓고 객체로 주어야함
+이거 안해서 여태까지 nullptr오류 난듯
+
+SpawnActor를 미리 해놓기 setActive(false)
+이게 풀링을 해놓은 상태
+GetPool을 하게되면 위치지정하고 setActive(true)로 해서 연산 시작
+
 SpawnActorDeferred

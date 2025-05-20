@@ -5,10 +5,12 @@
 		{"id":"773f6b3d18416efe","type":"text","text":"### 협업\nGit을 통해 Script 공유\nAsset은 용량이 크기에 구글 드라이브를 이용(압축해서 올리기)\n각자 Asset을 다운받은 후에 각자의 에디터에서 돌려본 후에 Script 작성, gitignore로 script만 push","x":197,"y":-192,"width":443,"height":212},
 		{"id":"b9a47b5ea1b954a8","type":"text","text":"### 멀티플레이\nreplication을 해야함\n","x":740,"y":-192,"width":443,"height":267},
 		{"id":"f8e7e71370e267af","type":"text","text":"### 전투\n","x":300,"y":109,"width":466,"height":380},
-		{"id":"733b9772a4957d23","type":"text","text":"### 적\n핵앤슬 특성상 한번에 적이 많이 나와야한다\nAttack(target, damage)\n### 적 종류\n1. Walker\n\t1. 기본 (일정 거리에서 공격, 플레이어 향해이동)\n\t2. 자폭 (자폭기능 추가)\n\t3. 탱커 (기본형에서 체력, 크기 조정)\n\t4. 은신 (은신 기능 추가)\n\t5. 텔포 (텔포 기능 추가)\n2. Shooter\n\t1. 기본 슈터 (단일 투사체 발사)\n\t2. 기본 슈터+ (단일 투사체 연사)\n\t3. 타워형\n\t4. 대포 (강력한 포탄 발사)\n\t5. 반구형으로 투사체를 많이 내뿜음\n\t6. 비행 슈터형\n\t7. 비행 슈터형+ (횡대쉬, 더 많은 투사체)","x":-374,"y":580,"width":834,"height":680}
+		{"id":"733b9772a4957d23","type":"text","text":"### 적\n핵앤슬 특성상 한번에 적이 많이 나와야한다\nAttack(target, damage)\n### 적 종류\n1. Walker\n\t1. 기본 (일정 거리에서 공격, 플레이어 향해이동)\n\t2. 자폭 (자폭기능 추가)\n\t3. 탱커 (기본형에서 체력, 크기 조정)\n\t4. 은신 (은신 기능 추가)\n\t5. 텔포 (텔포 기능 추가)\n2. Shooter\n\t1. 기본 슈터 (단일 투사체 발사)\n\t2. 기본 슈터+ (단일 투사체 연사)\n\t3. 타워형\n\t4. 대포 (강력한 포탄 발사)\n\t5. 반구형으로 투사체를 많이 내뿜음\n\t6. 비행 슈터형\n\t7. 비행 슈터형+ (횡대쉬, 더 많은 투사체)","x":-374,"y":580,"width":834,"height":680},
+		{"id":"0dbb79ff1200e878","type":"text","text":"# 적\n하이퍼FPS 특유의 속도감을 살리기\n적이 얼마나 많이 나와야되는지\n\n슬라임 형태\n\n슈터형\n공중 슈터형\nNavMesh 어떻게 함","x":842,"y":898,"width":638,"height":662}
 	],
 	"edges":[
 		{"id":"0e817b7ebd074ddd","fromNode":"0a506d90d0388d1d","fromSide":"right","toNode":"f8e7e71370e267af","toSide":"left"},
-		{"id":"77b574cc2a72cdb4","fromNode":"0a506d90d0388d1d","fromSide":"bottom","toNode":"733b9772a4957d23","toSide":"top"}
+		{"id":"77b574cc2a72cdb4","fromNode":"0a506d90d0388d1d","fromSide":"bottom","toNode":"733b9772a4957d23","toSide":"top"},
+		{"id":"44c5c1f5294b7aed","fromNode":"733b9772a4957d23","fromSide":"right","toNode":"0dbb79ff1200e878","toSide":"left"}
 	]
 }
